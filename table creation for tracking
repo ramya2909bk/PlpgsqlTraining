@@ -1,0 +1,8 @@
+CREATE TABLE VehicleTracking (
+    TrackingID SERIAL PRIMARY KEY,
+    VehicleID INT NOT NULL,
+    Timestamp TIMESTAMP NOT NULL,
+    Location VARCHAR(255),
+    Status VARCHAR(50),
+    Remarks TEXT
+);
